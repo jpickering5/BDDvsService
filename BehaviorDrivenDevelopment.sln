@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorDrivenDevelopment.Tests.Behavior", "BehaviorDrivenDevelopment.Tests.Behavior\BehaviorDrivenDevelopment.Tests.Behavior.csproj", "{71AA7880-7D83-454F-BAE0-CEEB80306BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BehaviorDrivenDevelopment.Service", "BehaviorDrivenDevelopment.Service\BehaviorDrivenDevelopment.Service.csproj", "{421A9027-4797-4D25-AB96-5939849FE7C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71AA7880-7D83-454F-BAE0-CEEB80306BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AA7880-7D83-454F-BAE0-CEEB80306BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AA7880-7D83-454F-BAE0-CEEB80306BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AA7880-7D83-454F-BAE0-CEEB80306BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421A9027-4797-4D25-AB96-5939849FE7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421A9027-4797-4D25-AB96-5939849FE7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421A9027-4797-4D25-AB96-5939849FE7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421A9027-4797-4D25-AB96-5939849FE7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
