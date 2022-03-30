@@ -39,7 +39,7 @@ namespace BehaviorDrivenDevelopment.Tests.Behavior.Steps
             };
         }
 
-        [When(@"a (.*) that costs (.*) GBP is added to the basket")]
+        [When(@"a (.*) that costs (.*) USD is added to the basket")]
         public void WhenATshirtThatCosts5GbpIsAddedToTheBasket(
             string itemName,
             decimal price)
@@ -51,7 +51,7 @@ namespace BehaviorDrivenDevelopment.Tests.Behavior.Steps
             });
         }
 
-        [Then(@"the basket value is (.*) GBP")]
+        [Then(@"the basket value is (.*) USD")]
         public void ThenTheBasketValueIs5Gbp(decimal expectedBasketValue)
         {
             var basketValue = _pricingService.GetBasketTotalAmount(_basket);
